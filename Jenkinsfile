@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 sh 'rm -rf prometheus'
-                sh 'git clone https://github.com/sanjay0288/prometheus.git'
+                sh 'git clone https://github.com/gshashi1408/prometheus.git'
             }
         }
         stage('Deploy Prometheus') {
